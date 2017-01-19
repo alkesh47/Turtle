@@ -1,19 +1,13 @@
 __author__ = 'Alkesh'
 import turtle
-import os
 import random
 import time
-import simpleaudio as sa
-
-#wave_obj = sa.WaveObject.from_wave_file(os.system("laser.mp3"))
-#play_obj = wave_obj.play()
-#play_obj.wait_done()
 
 turtle.title("Infinity")
 turtle.bgpic("back2.gif")
 turtle.speed(0)
 turtle.bgcolor("black")
-turtle.setundobuffer(1)                      #It clears unnecessary memory by limiting the number of undo actions
+turtle.setundobuffer(1)
 turtle.tracer(0)
 
 
